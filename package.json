@@ -1,24 +1,19 @@
 {
     "name"    : "eve",
-
     "author"  : {
         "name"  : "Dmitry Baranovskiy",
         "email" : "dmitry@baranovskiy.com",
         "url"   : "http://dmitry.baranovskiy.com"
     },
-	"description" : "Simple custom events",
     "license": "Apache-2.0",
     "version" : "0.5.4",
-
     "main"    : "./eve.js",
-
     "devDependencies": {
         "mocha": "*",
         "expect.js": "*",
         "eslint": "*",
         "dr.js": "~0.1.0"
     },
-
     "scripts": {
         "test": "eslint eve.js",
         "build": "node node_modules/dr.js/dr dr.json"
